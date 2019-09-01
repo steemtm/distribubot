@@ -16,7 +16,25 @@
         "token_in_wallet_for_each_outgoing_token": 1000,
         "min_token_in_wallet": 5000,
         "usage_upvote_percentage": 3
-        }],
+        },
+        {
+        "token_account": "tmps",
+        "symbol": "TMPS",
+        "token_memo":"Here are your gifted TMPS",
+        "reply": true,
+        "sucess_reply_body": "<center>You received FREE TMPS! You can use this to get upvotes for STEEM and select tribes.<br>![1](https://steemitimages.com/0x0/https://www.compumatrix.co/asset-symbols/taskmanager.png)<br>Sales of TMPS goes towards increasing vote power.</center>",
+        "fail_reply_body": "Sorry, you need more TMPS in order to use this service.",
+        "no_token_left_body": "Sorry, out of free sends, please retry later...",
+        "no_token_left_for_today": "You need to own more TMPS (500 TMPS in your wallet allows you to send 1 TMPS per day, + 1 TMPS for every 500 in your wallet after that.)",
+        "comment_command": "!TMPS",
+        "user_can_specify_amount": true,
+        "default_amount": 1,
+        "count_only_staked_token": fales,
+        "maximum_amount_per_comment": 10,
+        "token_in_wallet_for_each_outgoing_token": 500,
+        "min_token_in_wallet": 500,
+        "usage_upvote_percentage": 5
+        },],
         "no_broadcast": false,
         "print_log_at_block": 300,
         "wallet_password": "walletpass"
